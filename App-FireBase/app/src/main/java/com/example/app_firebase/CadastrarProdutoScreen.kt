@@ -113,11 +113,11 @@ fun CadastrarProdutoScreen(onRegisterComplete: () -> Unit) {
 
                 Button(
                     onClick = {
-                        // Salvar os dados no Firebase Firestore
+                        // Salvar os dados no Firestore
                         val db = FirebaseFirestore.getInstance()
                         val productData = hashMapOf(
                             "nome" to produto,
-                            "quantidade" to quantidade.toIntOrNull(), // Converte para Int, ou null se não for um número válido
+                            "quantidade" to quantidade.toIntOrNull(), 
                             "descricao" to descricao
                         )
 
@@ -142,7 +142,7 @@ fun CadastrarProdutoScreen(onRegisterComplete: () -> Unit) {
                     AlertDialog(
                         onDismissRequest = {
                             showSuccessMessage = false
-                            onRegisterComplete() // Navegar para a tela de listagem ou outra tela
+                            onRegisterComplete() 
                         },
                         title = { Text("Sucesso!") },
                         text = { Text("Produto cadastrado com sucesso.") },
