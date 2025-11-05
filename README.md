@@ -8,8 +8,11 @@ Este projeto demonstra a integração de um aplicativo Android/Kotlin com o Fire
 O aplicativo oferece as seguintes funcionalidades:
 
   👤 Cadastro de usuário
+  
   🔐 Login seguro com autenticação Firebase
+  
   📝 Cadastro de produtos
+  
   ✏️ Edição de produtos
 
 # 🧠 Tecnologias utilizadas
