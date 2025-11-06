@@ -3,6 +3,7 @@
 
 Este projeto demonstra a integração de um aplicativo Android/Kotlin com o Firebase Firestore, garantindo segurança e controle de acesso por meio da autenticação de usuários. A verificação de credenciais assegura que apenas usuários autenticados possam realizar operações no banco de dados, protegendo os dados e mantendo a integridade do sistema.
 
+
 # Funcionalidades
 
 O aplicativo oferece as seguintes funcionalidades:
@@ -14,6 +15,7 @@ O aplicativo oferece as seguintes funcionalidades:
   📝 Cadastro de produtos
   
   ✏️ Edição de produtos
+
 
 # 🧠 Tecnologias utilizadas
 
