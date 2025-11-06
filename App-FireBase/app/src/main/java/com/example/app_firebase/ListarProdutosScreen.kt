@@ -45,7 +45,6 @@ fun ListarProdutosScreen(onBack: () -> Unit) {
             }
             produtos.addAll(listaProdutos)
         } catch (e: Exception) {
-            // Tratar exceção (ex: exibir mensagem de erro)
             println("Erro ao buscar produtos: ${e.message}")
         }
     }
@@ -133,7 +132,6 @@ fun ListarProdutosScreen(onBack: () -> Unit) {
                                     // Produto excluído com sucesso
                                 }
                                 .addOnFailureListener { e ->
-                                    // Erro ao excluir produto
                                     println("Erro ao excluir produto: ${e.message}")
                                 }
                             val productData = hashMapOf(
@@ -201,7 +199,6 @@ fun ListarProdutosScreen(onBack: () -> Unit) {
                                 // Produto atualizado com sucesso
                             }
                             .addOnFailureListener { e ->
-                                // Erro ao atualizar produto
                                 println("Erro ao atualizar produto: ${e.message}")
                             }
                     } else {
